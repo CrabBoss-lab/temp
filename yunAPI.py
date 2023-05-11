@@ -27,10 +27,10 @@ import numpy as np
 class COS:
     def __init__(self):
         """初始化COS"""
-        self.secret_id = 'AKIDzgCYeVBhz3uiQ0Pgrz72kPvHRdjaHvSo'
-        self.secret_key = 'DHDzkJuLBzqS0NTQ9euxmMhpiHj03fP2'
-        self.region = 'ap-nanjing'
-        self.bucket = 'one-stop-platform-1309455710'
+        self.secret_id = ''
+        self.secret_key = ''
+        self.region = ''
+        self.bucket = ''
         self.config = CosConfig(Region=self.region, SecretId=self.secret_id, SecretKey=self.secret_key)
         self.client = CosS3Client(self.config)
 
